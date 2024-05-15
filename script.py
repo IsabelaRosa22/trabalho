@@ -20,7 +20,7 @@ produtos = {
     5: ("Presilha de Cabelo", 60)
 }
 
-print("Bem-vindo à loja Shein!")
+print("Bem-vindo às Lojas Chein!")
 print("Produtos disponíveis:")
 for codigo, produto in produtos.items():
     print(f"{codigo}: {produto[0]} - R${produto[1]}")
@@ -46,4 +46,4 @@ for produto in carrinho:
 
 print(f"\nTotal da compra: R${total_compra:.2f}")
 print(f"Total com desconto: R${total_com_desconto:.2f}")
-print("Obrigado por comprar na Shein!")
+print("Obrigado por comprar nas Lojas Chein!")
