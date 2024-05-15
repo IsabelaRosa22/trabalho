@@ -13,11 +13,11 @@ def aplicar_desconto(total):
         return total
 
 produtos = {
-    1: ("Vestido Floral", 50),
-    2: ("Blusa Cropped", 30),
-    3: ("Calça Jeans", 40),
-    4: ("Bolsa de Couro", 25),
-    5: ("Sapato de Salto", 60)
+    1: ("Blusa Cropped", 50),
+    2: ("Calça Jeans", 120),
+    3: ("Batom Duvidoso", 3),
+    4: ("Paleta de Sombras", 10),
+    5: ("Presilha de Cabelo", 60)
 }
 
 print("Bem-vindo à loja Shein!")
